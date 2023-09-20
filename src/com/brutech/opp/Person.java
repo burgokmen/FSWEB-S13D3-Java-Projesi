@@ -24,19 +24,19 @@ public class Person {
     }
 
     public String getFirstName(){
-        return this.firstname;
+        return firstname;
     }
 
     public String getLastName(){
-        return this.lastname;
+        return lastname;
     }
 
     public int getAge(){
-        return this.age;
+        return age;
     }
 
     public boolean isTeen(){
-        return this.age >12 && 20 > this.age;
+        return age >12 && 20 > age;
     }
 
 }
