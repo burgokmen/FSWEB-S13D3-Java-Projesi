@@ -15,9 +15,7 @@ public class Person {
     }
 
     public Person(String firstname, String lastname, int age, boolean isDev, String[] children, double someDouble) {
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.age = age;
+        this(firstname,lastname,age);
         this.isDev = isDev;
         this.children = children;
         this.someDouble = someDouble;
